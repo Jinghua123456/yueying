@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<firstTag>#根目录
+    <onename>zhangyue</onename>#一级目录
+    <twoname>刘远</twoname>
+    <oneage>24</oneage>
+    <twoage>24</twoage>
+    <two>
+        <onesex>女</onesex>#二级目录
+        <twosex>男</twosex>
+    </two>
+
+</firstTag>

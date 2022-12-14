@@ -1,0 +1,98 @@
+2022-11-29 09:19:41,600 - doExcel.py:[22] - [INFO] - 打开工作簿成功!
+2022-11-29 09:19:41,600 - doExcel.py:[39] - [INFO] - 获取sheet页成功!
+2022-11-29 09:19:41,600 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(8,4)，值是:.teachHeadPic.ng-star-inserted
+2022-11-29 09:19:41,600 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(9,4)，值是:.userInfo-popPanel>:nth-child(4)
+2022-11-29 09:19:41,600 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(10,4)，值是:.ant-modal-confirm-btns>button:nth-child(2)
+2022-11-29 09:19:41,600 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(11,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:19:41,600 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(12,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(1)
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(13,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(2)
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(14,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(3)
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(15,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(4)
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(16,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(3)
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(17,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(4)
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(18,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(3) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(19,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(4) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(20,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(5) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(21,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(6) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:19:41,601 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(22,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(10) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:19:41,607 - doExcel.py:[22] - [INFO] - 打开工作簿成功!
+2022-11-29 09:19:41,607 - doExcel.py:[39] - [INFO] - 获取sheet页成功!
+2022-11-29 09:19:41,607 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(1,4)，值是:body > app-root > layout-passport > div > div > passport-login > div > form > nz-form-item:nth-child(2) > nz-form-control > div > span > nz-input-group > input
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(2,4)，值是:body > app-root > layout-passport > div > div > passport-login > div > form > nz-form-item:nth-child(4) > nz-form-control > div > span > nz-input-group > input
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(3,4)，值是:body > app-root > layout-passport > div > div > passport-login > div > form > nz-form-item:nth-child(6) > button
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(4,4)，值是: .ng-tns-c5-1.ng-trigger.ng-trigger-formExplainAnimation
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(5,4)，值是:.ng-tns-c5-2.ng-trigger.ng-trigger-formExplainAnimation
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(6,4)，值是:.ant-modal-confirm-title>span
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(7,4)，值是:.ant-modal-confirm-btns>button
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(1,1)，值是:13986128128.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(1,2)，值是:121121.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(2,1)，值是:13986129028.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(2,2)，值是:1233456.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(3,1)，值是:13986128128.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(3,2)，值是:
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(4,1)，值是:13986129028.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(4,2)，值是:121121.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(5,1)，值是:13986128128.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(5,2)，值是:1233456.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(6,1)，值是:
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(6,2)，值是:
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(7,1)，值是:13986128.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(7,2)，值是:121121.0
+2022-11-29 09:19:41,608 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(8,1)，值是:139861282812
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(8,2)，值是:121121.0
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(9,1)，值是:13986128128.0
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(9,2)，值是:1211.0
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(10,1)，值是:13986128128.0
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(10,2)，值是:12112134.0
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(11,1)，值是:
+2022-11-29 09:19:41,609 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(11,2)，值是:121121.0
+2022-11-29 09:19:54,257 - test_login.py:[37] - [INFO] - 断言成功
+2022-11-29 09:30:51,818 - doExcel.py:[22] - [INFO] - 打开工作簿成功!
+2022-11-29 09:30:51,818 - doExcel.py:[39] - [INFO] - 获取sheet页成功!
+2022-11-29 09:30:51,818 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(8,4)，值是:.teachHeadPic.ng-star-inserted
+2022-11-29 09:30:51,818 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(9,4)，值是:.userInfo-popPanel>:nth-child(4)
+2022-11-29 09:30:51,818 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(10,4)，值是:.ant-modal-confirm-btns>button:nth-child(2)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(11,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(12,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(1)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(13,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(2)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(14,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(3)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(15,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(4)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(16,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(3)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(17,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(2) > div.nav2.ng-star-inserted > div:nth-child(4)
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(18,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(3) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(19,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(4) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(20,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(5) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(21,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(6) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:30:51,819 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(22,4)，值是:body > app-root > layout-default > layout-sidebar > div > div > div:nth-child(10) > div.flex_H_Center.nav1.dis.ng-star-inserted > span
+2022-11-29 09:30:51,827 - doExcel.py:[22] - [INFO] - 打开工作簿成功!
+2022-11-29 09:30:51,827 - doExcel.py:[39] - [INFO] - 获取sheet页成功!
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(1,4)，值是:body > app-root > layout-passport > div > div > passport-login > div > form > nz-form-item:nth-child(2) > nz-form-control > div > span > nz-input-group > input
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(2,4)，值是:body > app-root > layout-passport > div > div > passport-login > div > form > nz-form-item:nth-child(4) > nz-form-control > div > span > nz-input-group > input
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(3,4)，值是:body > app-root > layout-passport > div > div > passport-login > div > form > nz-form-item:nth-child(6) > button
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(4,4)，值是: .ng-tns-c5-1.ng-trigger.ng-trigger-formExplainAnimation
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(5,4)，值是:.ng-tns-c5-2.ng-trigger.ng-trigger-formExplainAnimation
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(6,4)，值是:.ant-modal-confirm-title>span
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(7,4)，值是:.ant-modal-confirm-btns>button
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(1,1)，值是:13986128128.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(1,2)，值是:121121.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(2,1)，值是:13986129028.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(2,2)，值是:1233456.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(3,1)，值是:13986128128.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(3,2)，值是:
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(4,1)，值是:13986129028.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(4,2)，值是:121121.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(5,1)，值是:13986128128.0
+2022-11-29 09:30:51,827 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(5,2)，值是:1233456.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(6,1)，值是:
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(6,2)，值是:
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(7,1)，值是:13986128.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(7,2)，值是:121121.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(8,1)，值是:139861282812
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(8,2)，值是:121121.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(9,1)，值是:13986128128.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(9,2)，值是:1211.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(10,1)，值是:13986128128.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(10,2)，值是:12112134.0
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(11,1)，值是:
+2022-11-29 09:30:51,828 - doExcel.py:[51] - [INFO] - 读取文件成功!单元格值(11,2)，值是:121121.0
+2022-11-29 09:31:04,685 - test_login.py:[259] - [INFO] - 断言成功

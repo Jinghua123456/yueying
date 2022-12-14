@@ -1,0 +1,10 @@
+-
+    name1: 刘远
+    age1: 24
+    sex: 男
+    name: 张悦
+    age: 23
+    sex1: 女
+-
+      - class: 2班
+      - class: 3班

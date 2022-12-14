@@ -1,0 +1,10 @@
+
+PLatformName="Android"
+PLatformVersion="7.1.2"
+DEviceName="127.0.0.1:62001"
+NOReset="True"
+APP="C:\\Users\\刘朋强\\Desktop\\xueqiu.apk"
+APPPackage="com.xueqiu.android"
+APPWaitActivity=".view.WelcomeActivityAlias"
+UNicodeKeyboard="True"
+REsetKeyboard="True"

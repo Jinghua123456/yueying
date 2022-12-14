@@ -1,0 +1,728 @@
+2022-11-30 18:22:48,447 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:22:48,453 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:22:48,453 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:登录
+2022-11-30 18:22:48,453 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:22:48,454 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:22:48,454 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:22:48,454 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:22:48,454 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:23:55,352 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:23:55,358 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:23:55,358 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:登录
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:23:55,359 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:23:58,066 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:23:58,170 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('link text', '登录')
+2022-11-30 18:23:58,212 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ccee3e2c2f93b530967ed1973e74d52a", element="ecdea499-7c7a-4aba-af97-69f56ffffa0b")>
+2022-11-30 18:24:03,309 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '登录')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:24:03,316 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:18203694633
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:24:03,336 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:24:03,407 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:Lzp123456
+2022-11-30 18:24:03,425 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:24:03,479 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ccee3e2c2f93b530967ed1973e74d52a", element="cbc46008-8c72-40e7-8dbd-797de9942dcf")>
+2022-11-30 18:24:04,488 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__submit'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:26:48,286 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:26:48,292 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:26:48,292 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:登录
+2022-11-30 18:26:48,292 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:26:48,292 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:26:48,292 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:26:48,292 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:26:48,292 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:26:48,293 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:26:50,816 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:26:55,848 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '登录')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:26:55,853 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:27:00,957 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__userName')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:27:00,958 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:18203694633
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:27:06,029 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__password')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:27:06,029 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:Lzp123456
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:27:11,080 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__submit')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:27:11,081 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:27:12,086 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__error'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:28:46,865 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:28:46,871 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:登录
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:28:46,871 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:28:49,854 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:28:55,910 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '登录')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:28:55,915 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:29:00,973 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__userName')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:29:00,973 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:18203694633
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:29:06,009 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__password')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:29:06,010 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:Lzp123456
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:29:11,067 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__submit')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:29:11,067 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:29:12,080 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__error'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:30:39,416 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:30:39,421 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:30:39,421 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:登录
+2022-11-30 18:30:39,421 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:30:39,421 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:30:39,421 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:30:39,422 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:30:42,194 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:30:48,291 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '登录')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:30:48,297 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:30:53,381 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__userName')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:30:53,381 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:18203694633
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:30:58,467 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__password')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:30:58,467 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:Lzp123456
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:31:03,476 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__submit')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:31:03,476 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:31:04,492 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__error'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:31:16,643 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:31:16,650 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:31:16,650 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:31:19,040 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:31:20,066 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('link text', '登录')
+2022-11-30 18:31:20,103 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="bb457fef2701d9cbb98c8ac57320ff1a", element="7e128cff-b1a2-457c-afa1-6788ce36ad4e")>
+2022-11-30 18:31:20,672 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:31:21,121 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:18203694633
+2022-11-30 18:31:21,140 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:31:21,207 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:Lzp123456
+2022-11-30 18:31:21,224 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:31:21,268 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="bb457fef2701d9cbb98c8ac57320ff1a", element="5450305d-efce-4fa3-a6fd-559df49e9d1d")>
+2022-11-30 18:31:22,275 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__error'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:31:54,021 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:31:54,027 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:登录
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:31:54,027 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:31:56,502 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:32:02,514 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '登录')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:32:02,519 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:32:07,559 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__userName')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:32:07,559 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:18203694633
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:32:12,653 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__password')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:32:12,654 - basePage.py:[67] - [ERROR] - 输入失败，输入内容是:Lzp123456
+原因是:'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 64, in inputWenben
+    ele.send_keys(value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2022-11-30 18:32:17,884 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__submit')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:32:17,885 - basePage.py:[54] - [ERROR] - 元素点击失败，该元素是:None
+失败原因是:'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 51, in doClick
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2022-11-30 18:32:18,888 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__error'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:33:58,088 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:33:58,095 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:#s-top-loginbtn
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:33:58,095 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:33:58,096 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:33:58,096 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:33:58,096 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:34:00,863 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:34:01,896 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#s-top-loginbtn')
+2022-11-30 18:34:01,932 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="99e5da839ba507db9854c2085cbb9feb", element="1d332f22-931c-4722-8a08-eb63fab3012d")>
+2022-11-30 18:34:02,417 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:34:02,834 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:18203694633
+2022-11-30 18:34:02,859 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:34:02,923 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:Lzp123456
+2022-11-30 18:34:02,941 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:34:02,985 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="99e5da839ba507db9854c2085cbb9feb", element="5d52cb26-5818-40bb-ad3c-ff6f4c017535")>
+2022-11-30 18:34:03,993 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+错误元素是:(('css selector', '#TANGRAM__PSP_11__error'),)
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=107.0.5304.63)
+
+2022-11-30 18:38:25,405 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:38:25,411 - doExcel.py:[25] - [INFO] - 打开工作簿成功！打开sheet页成功！
+2022-11-30 18:38:25,411 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,4），值是:#s-top-loginbtn
+2022-11-30 18:38:25,411 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,4），值是:#TANGRAM__PSP_11__userName
+2022-11-30 18:38:25,411 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,4），值是:#TANGRAM__PSP_11__password
+2022-11-30 18:38:25,411 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,4），值是:#TANGRAM__PSP_11__submit
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,4），值是:#TANGRAM__PSP_11__error
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,1），值是:18203694633.0
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（1,2），值是:Lzp123456
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,1），值是:
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（2,2），值是:
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,1），值是:18203694633.0
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（3,2），值是:
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,1），值是:18203694633.0
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（4,2），值是:Lzp123456789
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,1），值是:
+2022-11-30 18:38:25,412 - doExcel.py:[35] - [INFO] - 读取成功！单元格（5,2），值是:Lzp123456
+2022-11-30 18:38:27,869 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:38:28,060 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#s-top-loginbtn')
+2022-11-30 18:38:28,171 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="8589f752-1a6e-41bc-b77c-3f9dd7cc190b")>
+2022-11-30 18:38:28,879 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:38:29,288 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:
+2022-11-30 18:38:29,310 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:38:29,353 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:
+2022-11-30 18:38:29,371 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:38:29,414 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="a47f9bf6-b920-46bd-a691-382a23e49c95")>
+2022-11-30 18:38:30,436 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__error')
+2022-11-30 18:38:30,447 - basePage.py:[83] - [INFO] - 文本获取成功！内容是:请您输入手机号/用户名/邮箱
+2022-11-30 18:38:30,450 - test_loginpage.py:[41] - [ERROR] - 断言失败！'请您输入手机号/用户名/邮箱' != None
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\testCase\test_loginpage.py", line 39, in test_n_no_p_no
+    self.assertEqual("请您输入手机号/用户名/邮箱",messageText)
+  File "D:\software\pycharm\PyCharm Community Edition 2022.2.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '请您输入手机号/用户名/邮箱' != None
+2022-11-30 18:38:30,624 - basePage.py:[95] - [INFO] - 截图成功
+2022-11-30 18:38:31,832 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:38:31,857 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#s-top-loginbtn')
+2022-11-30 18:38:31,888 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="2843e98b-61e9-49ef-970e-98242176cadf")>
+2022-11-30 18:38:32,262 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:38:32,303 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:
+2022-11-30 18:38:32,318 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:38:32,381 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:Lzp123456
+2022-11-30 18:38:32,395 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:38:32,436 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="3f998ec8-788b-4bac-93bc-f9615bb6e933")>
+2022-11-30 18:38:33,462 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__error')
+2022-11-30 18:38:33,473 - basePage.py:[83] - [INFO] - 文本获取成功！内容是:请您输入手机号/用户名/邮箱
+2022-11-30 18:38:33,473 - test_loginpage.py:[97] - [ERROR] - 断言失败！'请您输入手机号/用户名/邮箱' != None
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\testCase\test_loginpage.py", line 95, in test_n_no_p_ok
+    self.assertEqual("请您输入手机号/用户名/邮箱", messageText)
+  File "D:\software\pycharm\PyCharm Community Edition 2022.2.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '请您输入手机号/用户名/邮箱' != None
+2022-11-30 18:38:33,655 - basePage.py:[95] - [INFO] - 截图成功
+2022-11-30 18:38:34,840 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:38:34,855 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#s-top-loginbtn')
+2022-11-30 18:38:34,888 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="1147d4d3-e656-42d9-830f-d5d829f5384f")>
+2022-11-30 18:38:35,231 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:38:35,292 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:18203694633
+2022-11-30 18:38:35,309 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:38:35,375 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:Lzp123456
+2022-11-30 18:38:35,389 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:38:35,432 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="d0ae9425-3dbb-4513-bd38-5d47d0a6a452")>
+2022-11-30 18:38:41,452 - basePage.py:[40] - [ERROR] - 元素定位失败，错误信息是:Message: 
+
+错误元素是:('css selector', '#TANGRAM__PSP_11__error')
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 37, in findElement
+    ele=WebDriverWait(self.driver,5,0.1).until(EC.visibility_of_element_located(locater))
+  File "D:\software\pythonhome\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-11-30 18:38:41,460 - basePage.py:[80] - [ERROR] - 文本获取失败，失败元素是:None
+错误信息是:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\pageObj\basePage.py", line 77, in getValue
+    eleText=ele.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2022-11-30 18:38:41,461 - test_loginpage.py:[79] - [ERROR] - 断言失败！'请您输入密码' != None
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\testCase\test_loginpage.py", line 77, in test_n_ok_p_c
+    self.assertEqual("请您输入密码", messageText)
+  File "D:\software\pycharm\PyCharm Community Edition 2022.2.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '请您输入密码' != None
+2022-11-30 18:38:41,699 - basePage.py:[95] - [INFO] - 截图成功
+2022-11-30 18:38:42,886 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:38:42,916 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#s-top-loginbtn')
+2022-11-30 18:38:42,948 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="4fbdab3e-9239-48b1-9d1c-5e2d724e0579")>
+2022-11-30 18:38:43,259 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:38:43,332 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:18203694633
+2022-11-30 18:38:43,351 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:38:43,399 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:
+2022-11-30 18:38:43,414 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:38:43,459 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="7eaf97aa-3491-44b4-97d7-6a532b290a74")>
+2022-11-30 18:38:44,488 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__error')
+2022-11-30 18:38:44,499 - basePage.py:[83] - [INFO] - 文本获取成功！内容是:请您输入密码
+2022-11-30 18:38:44,499 - test_loginpage.py:[60] - [ERROR] - 断言失败！'请您输入密码' != None
+Traceback (most recent call last):
+  File "D:\pythonCoding\zuoyeProject\demo\testCase\test_loginpage.py", line 58, in test_n_ok_p_no
+    self.assertEqual("请您输入密码", messageText)
+  File "D:\software\pycharm\PyCharm Community Edition 2022.2.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\pythonhome\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '请您输入密码' != None
+2022-11-30 18:38:44,662 - basePage.py:[95] - [INFO] - 截图成功
+2022-11-30 18:38:45,877 - basePage.py:[32] - [INFO] - 未发生异常，页面打开成功！打开的页面是http://www.baidu.com
+2022-11-30 18:38:45,894 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#s-top-loginbtn')
+2022-11-30 18:38:45,925 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="c4c5e01a-3a27-4167-b6ca-7da24ed6fda3")>
+2022-11-30 18:38:46,244 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__userName')
+2022-11-30 18:38:46,319 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:18203694633
+2022-11-30 18:38:46,333 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__password')
+2022-11-30 18:38:46,399 - basePage.py:[70] - [INFO] - 输入成功！输入内容是:Lzp123456
+2022-11-30 18:38:46,412 - basePage.py:[43] - [INFO] - 元素定位成功，该元素是:('css selector', '#TANGRAM__PSP_11__submit')
+2022-11-30 18:38:46,455 - basePage.py:[57] - [INFO] - 元素点击成功！该元素是:<selenium.webdriver.remote.webelement.WebElement (session="ec7cce8aca9eb631675c4b727467a81c", element="0874cac3-84a6-4a93-a8aa-116806d984a1")>
+2022-11-30 18:38:47,474 - test_loginpage.py:[26] - [INFO] - 断言成功！
+2022-11-30 18:38:47,666 - basePage.py:[95] - [INFO] - 截图成功
